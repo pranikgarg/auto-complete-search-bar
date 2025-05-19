@@ -1,0 +1,31 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.search-bar {
+  width: 500px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+.result-list {
+  list-style: none;
+  border: 1px solid black;
+  margin: 0;
+  padding: 5px;
+  max-height: 400px;
+  overflow-y: auto;
+  border-radius: 10px;
+}
+
+.result {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.result:hover {
+  background-color: beige;
+}
